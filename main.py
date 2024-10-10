@@ -116,9 +116,9 @@ try:
     u_name.send_keys(username)
     time.sleep(2.3)
     paswd.send_keys(password)
-    time.sleep(5)
+    time.sleep(3)
     paswd.send_keys(Keys.ENTER)
-    time.sleep(10)                          
+    time.sleep(5)                          
 
 
     month = driver.find_element(By.XPATH, "/html/body/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div/section/main/div/div/div[1]/div/div/div[4]/div/div/span/span[1]/select")
