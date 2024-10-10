@@ -24,12 +24,6 @@ This Python project automates the process of registering Instagram accounts usin
     ```bash
     pip install -r requirements.txt
 
-Install the required Python libraries:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Configuration
 
 1. **Proxies**: Place your proxy details (host, port, username, password) in the designated section of the script. Proxies will be used to register accounts.
@@ -43,7 +37,7 @@ Install the required Python libraries:
 1. To start the automation process, run:
 
     ```bash
-    python insta_auto_register.py
+    python main.py
     ```
 
 2. The script will automatically register Instagram accounts using the provided proxy and user agent details.
